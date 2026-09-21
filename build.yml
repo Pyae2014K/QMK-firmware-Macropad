@@ -1,3 +1,5 @@
+name: Build QMK Firmware
+
 on: [push]
 
 jobs:
