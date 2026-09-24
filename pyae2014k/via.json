@@ -1,14 +1,14 @@
 {
     "name": "Pyae2014K",
-    "vendorId": "0xFEED",
-    "productId": "0x0000",
+    "productId": "0x0001",
+    "vendorId": "0x706B",
     "matrix": {
         "rows": 4,
         "cols": 3
     },
     "layouts": {
         "keymap": [
-            ["e0"],
+            [{"x":2},"\n\n\n\n\n\n\n\n\ne0"],
             ["0,0", "0,1", "0,2"],
             ["1,0", "1,1", "1,2"],
             ["2,0", "2,1", "2,2"],
