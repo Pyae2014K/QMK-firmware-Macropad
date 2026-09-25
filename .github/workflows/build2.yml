@@ -18,13 +18,13 @@ jobs:
       - name: Copy keyboard files
         run: |
           ls $GITHUB_WORKSPACE
-          cp -r $GITHUB_WORKSPACE/pyaes2014k ~/qmk_firmware/keyboards/
+          cp -r $GITHUB_WORKSPACE/pyae2014k - Copy ~/qmk_firmware/keyboards/
           ls ~/qmk_firmware/keyboards/ | grep pyaes_keeb
 
       - name: Compile
         run: |
           cd ~/qmk_firmware
-          qmk compile -kb pyaes2014k -km default 2>&1
+          qmk compile -kb pyae2014k - Copy -km default 2>&1
 
       - name: Find firmware
         run: find /home/runner -name "*.uf2" 2>/dev/null
