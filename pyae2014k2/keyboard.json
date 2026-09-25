@@ -12,11 +12,11 @@
     "nkro": true
   },
   "matrix_pins": {
-    "cols": ["D6","D7","D8"],
-    "rows": ["D0","D1","D2","D3"]
+    "cols": ["GP0","GP1","GP2"],
+    "rows": ["GP26","GP27","GP28","GP29"]
   },
   "encoder": {
-    "rotary": [{"pin_a": "D9","pin_b": "D10"}]
+    "rotary": [{"pin_a": "GP4","pin_b": "GP3"}]
   },
   "processor": "RP2040",
   "usb": {
