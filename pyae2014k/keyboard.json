@@ -10,7 +10,7 @@
   },
   "matrix_pins": {
     "cols": [
-      "D8","D9","D10"
+      "D6","D7","D8"
     ],
     "rows": [
       "D0","D1","D2","D3"
@@ -20,8 +20,8 @@
     "enabled": true,
     "rotary": [
       {
-      "pin_a": "GP0",
-      "pin_b": "GP1"
+      "pin_a": "D9",
+      "pin_b": "D10"
       }
     ]
   },
