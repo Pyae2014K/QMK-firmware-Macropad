@@ -25,7 +25,7 @@
         "vid": "0x706B"
     },
     "layouts": {
-        "LAYOUT_ortho_3x5": {
+        "LAYOUT_ortho_5x3": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
