@@ -12,8 +12,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP26", "GP27", "GP28", "GP29", "GP6"],
-        "rows": ["GP4", "GP2", "GP1"]
+        "rows": ["GP26", "GP27", "GP28", "GP29", "GP6"],
+        "cols": ["GP4", "GP2", "GP1"]
     },
     "encoder": {
         "rotary": [{"pin_a": "GP7","pin_b": "GP0"}]
