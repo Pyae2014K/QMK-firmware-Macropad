@@ -1,28 +1,28 @@
 #include QMK_KEYBOARD_H
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_ortho_5x3(
-        KC_Mute,          TG(1),
+        KC_Mute,       KC_NO   TG(1),
         LCTL(LSFT(KC_M)),    LCTL(LSFT(KC_D)),    LGUI(LSFT(KC_S)),
         LCTL(LSFT(KC_ESC)),    KC_DEL,    KC_DEL,
         LCTL(KC_X),    LCTL(KC_C),    LCTL(KC_V),
-        LCTL(KC_Z),    GUI(KC_V),    KC_TRNS
+        LCTL(KC_Z),    LGUI(KC_V),    KC_TRNS
     )
     [1] = LAYOUT_ortho_5x3(
-        KC_Mute,          TG(2),
-        KC,7    KC,8    KC,9
-        KC,4    KC,5    KC,6
-        KC,1    KC,2    KC,3
-        KC,0    KC,PDOT    KC_PENT
+        KC_Mute,   KC_NO      TG(2),
+        KC_7       KC_8       KC_9
+        KC_4       KC_5       KC_6
+        KC_1       KC_2       KC_3
+        KC_0       KC_PDOT    KC_PENT
     )
     [2] = LAYOUT_ortho_5x3(
-        KC_Mute,          TG(3),
+        KC_Mute,    KC_NO       TG(3),
         KC_TRNS,    KC_TRNS,    KC_TRNS,
         KC_TRNS,    KC_TRNS,    KC_TRNS,
         KC_TRNS,    KC_TRNS,    KC_TRNS,
         KC_TRNS,    KC_TRNS,    KC_TRNS
     )
     [3] = LAYOUT_ortho_5x3(
-        KC_Mute,          TG(0),
+        KC_Mute,    KC_NO       TG(0),
         KC_TRNS,    KC_TRNS,    KC_TRNS,
         KC_TRNS,    KC_TRNS,    KC_TRNS,
         KC_TRNS,    KC_TRNS,    KC_TRNS,
