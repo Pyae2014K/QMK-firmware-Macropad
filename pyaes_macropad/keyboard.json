@@ -19,7 +19,7 @@
         "rotary": [{"pin_a": "GP7","pin_b": "GP0"}]
     },
     "ws2812": {
-        "pin": "GPxx",
+        "pin": "GP1",
         "driver": "vendor"
     },
     "rgb_matrix": {
