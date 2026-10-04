@@ -18,6 +18,13 @@
     "encoder": {
         "rotary": [{"pin_a": "GP7","pin_b": "GP0"}]
     },
+    "ws2812": {
+        "pin": "GPxx",
+        "driver": "vendor"
+    },
+    "rgb_matrix": {
+        "driver": "ws2812",
+        "max_brightness": 120,
     "processor": "RP2040",
     "usb": {
         "device_version": "1.0.0",
