@@ -6,9 +6,8 @@
         "rows": 5,
         "cols": 3
     },
-
-    "lighting": "qmk_rgb_matrix",
-    
+    "menus": ["qmk_rgb_matrix"],
+    "keycodes": ["qmk_lighting"],
     "layouts": {
         "keymap": [
             ["0,0\n\n\n\n\n\n\n\n\ne0",{"x":1},"0,2"],
