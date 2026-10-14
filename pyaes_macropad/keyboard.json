@@ -13,13 +13,13 @@
     },
     "matrix_pins": {
         "rows": ["GP26", "GP27", "GP28", "GP29", "GP6"],
-        "cols": ["GP4", "GP2", "GP1"]
+        "cols": ["GP3", "GP4", "GP2"]
     },
     "encoder": {
         "rotary": [{"pin_a": "GP7","pin_b": "GP0"}]
     },
     "ws2812": {
-        "pin": "GP3",
+        "pin": "GP1",
         "driver": "vendor"
     },
     "rgb_matrix": {
