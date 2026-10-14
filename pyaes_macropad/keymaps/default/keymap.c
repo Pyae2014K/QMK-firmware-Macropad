@@ -8,33 +8,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_0,       KC_PDOT,    KC_PENT
     ),
     [1] = LAYOUT_ortho_5x3(
-        KC_MUTE,                                  TG(2),
+        KC_MUTE,                                  TG(0),
         LCTL(LSFT(KC_M)),    LCTL(LSFT(KC_D)),    LGUI(LSFT(KC_S)),
-        LCTL(LSFT(KC_ESC)),  KC_INSERT,           KC_DELETE,
+        LCTL(LSFT(KC_ESC)),  KC_INSERT,           KC_MEDIA_PLAY_PAUSE,
         LCTL(KC_X),          LCTL(KC_C),          LCTL(KC_V),
         LCTL(KC_Z),          LGUI(KC_V),          KC_NO
-    ),
-    [2] = LAYOUT_ortho_5x3(
-        KC_MUTE,            TG(3),
-        KC_NO,    KC_NO,    KC_NO,
-        KC_NO,    KC_NO,    KC_NO,
-        KC_NO,    KC_NO,    KC_NO,
-        KC_NO,    KC_NO,    KC_NO
-    ),
-    [3] = LAYOUT_ortho_5x3(
-        KC_MUTE,            TG(0),
-        KC_NO,    KC_NO,    KC_NO,
-        KC_NO,    KC_NO,    KC_NO,
-        KC_NO,    KC_NO,    KC_NO,
-        KC_NO,    KC_NO,    KC_NO
     )
 };
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-    [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-    [1] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-    [2] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-    [3] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) }
+    [0 ... 1] = {ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},
 };
 #endif
