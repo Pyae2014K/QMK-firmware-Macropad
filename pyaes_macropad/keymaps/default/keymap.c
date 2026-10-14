@@ -10,9 +10,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [1] = LAYOUT_ortho_5x3(
         KC_MUTE,             KC_NO,               TG(0),
         LCTL(LSFT(KC_M)),    LCTL(LSFT(KC_D)),    LGUI(LSFT(KC_S)),
-        LCTL(LSFT(KC_ESC)),  KC_INSERT,           KC_MEDIA_PLAY_PAUSE,
+        LCTL(LSFT(KC_ESC)),  KC_DELETE,           KC_INSERT,
         LCTL(KC_X),          LCTL(KC_C),          LCTL(KC_V),
-        LCTL(KC_Z),          LGUI(KC_V),          KC_NO
+        LCTL(KC_Z),          LGUI(KC_V),          KC_MEDIA_PLAY_PAUSE
     )
 };
 
