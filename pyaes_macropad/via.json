@@ -8,6 +8,10 @@
     },
     "menus": ["qmk_rgb_matrix"],
     "keycodes": ["qmk_lighting"],
+    "keycodes": ["qmk_backlight_keycodes"],
+    "keycodes": ["qmk_rgblight_keycodes"],
+    "keycodes": ["qmk_rgb_matrix_keycodes"],
+    "keycodes": ["qmk_backlight_rgblight_keycodes"],
     "layouts": {
         "keymap": [
             ["0,0\n\n\n\n\n\n\n\n\ne0",{"x":1},"0,2"],
