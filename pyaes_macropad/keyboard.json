@@ -25,6 +25,17 @@
     "rgb_matrix": {
         "driver": "ws2812",
         "max_brightness": 120
+        "animations": {
+            "alphas_mods": true,
+            "gradient_up_down": true,
+            "cycle_all": true,
+            "cycle_left_right": true,
+            "rainbow_moving_chevron": true,
+            "breathing": true,
+            "band_sat": true,
+            "solid_reactive_simple": true,
+            "splash": true
+    },
         "layout": [
             {"x": 224, "y": 0,  "flags": 4, "matrix": [0, 2]},
             {"x": 0,   "y": 16, "flags": 4, "matrix": [1, 0]},
