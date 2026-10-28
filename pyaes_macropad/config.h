@@ -1,3 +1,4 @@
   #pragma once
   #undef DYNAMIC_KEYMAP_MACRO_COUNT
   #define DYNAMIC_KEYMAP_MACRO_COUNT 16
+  #define RGB_MATRIX_LED_COUNT 13
