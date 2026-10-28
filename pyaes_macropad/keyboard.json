@@ -41,7 +41,6 @@
             {"x": 224, "y": 64, "flags": 4, "matrix": [4, 2]}
         ]
 },
-    },
     "processor": "RP2040",
     "usb": {
         "device_version": "1.0.0",
