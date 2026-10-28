@@ -16,7 +16,7 @@
         "cols": ["GP3", "GP4", "GP2"]
     },
     "encoder": {
-        "rotary": [{"pin_a": "GP7","pin_b": "GP0"}]
+        "rotary": [{"pin_a": "GP0","pin_b": "GP7"}]
     },
     "ws2812": {
         "pin": "GP1",
